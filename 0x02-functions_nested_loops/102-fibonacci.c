@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints first 50 Fibonnaci numbers, starting with 1 and 2,
- * separated by a comma followed by a space.
+ * main - prints first 52 Fibonnaci numbers.
  * Return: Nothing!
  */
 
@@ -16,7 +15,7 @@ int main(void)
 	{
 		if (i == 0)
 			printf("%ld", j);
-		else if (1 == 1)
+		else if (i == 1)
 			printf(", %ld", k);
 		else
 		{
