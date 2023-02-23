@@ -4,14 +4,10 @@
  * mul - multiplies two integers
  * @a: a - variable
  * @b: b - variable
- * REturn: Always 0.
+ * Return: The result of multiplication between a and b
  */
 
 int mul(int a, int b)
 {
-	int mul;
-
-	mul = a * b;
-
-	return (mul);
+	return (a * b);
 }
